@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+
+#contenedor-productos {
+  font-family: 'Albert Sans', sans-serif;
+  display: flex;
+  max-width: 1400px;
+  margin: 60px auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header img {
+  max-width: 40%;
+  margin: 20px;
+  margin-bottom: 20px;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+
+#contenedor-productos {
+  max-width: 1200px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3.5rem;
+}
+
+p {
+  line-height: 1.8;
+}
+.producto {
+  max-width: 28%;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 20px;
+  border-radius: 3%;
+  box-shadow: 2px 1px 1px 3px rgba(189, 171, 250, 0.3);
+}
+.precioProducto {
+  font-weight: 700;
+}
+.boton-agregar {
+  font-family: 'Mukta', sans-serif;
+  background-color: rgb(60, 225, 153);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px;
+  border-color: rgb(60, 225, 153);
+  border-radius: 6px ;
+}
+
+.productoEnCarrito {
+  font-family: 'Mukta', sans-serif;
+  border-left: 5px solid lightblue;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.productoEnCarrito:hover {
+  border-left: 5px solid royalblue;
+}
+
+
+.boton-eliminar {
+  background-color: rgb(243, 23, 23);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px;
+  border: none;
+}
+
+#boton-carrito {
+  border: none;
+  color: royalblue;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 20%;
+  padding: 10px 20px;
+  transition: all .3s;
+}
+#boton-carrito:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(86, 238, 99);
+}
+#boton-carrito:focus {
+  outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color:black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  justify-content: space-between;
+
+}
+.navbar-collapse {
+  flex-grow: 1;
+  align-items: end;
+  justify-content: flex-end;
+
+}
+
+
+/*FOOTER*/
+footer {
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer, .footer-extend {
+  display: flex;
+  font-family: 'Abel', sans-serif;
+  flex-direction: column-reverse;
+  padding: 4%; }
+
+.footer-extend {
+  background-color:rgb(222, 223, 226); }
+
+.iconos {
+  margin-top: 3px;
+}
